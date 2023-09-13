@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Demo implements the layout desing of my individual branding, practicing HTML, CSS & JS">
+    <meta name="keywords" content="Capstone Project, Group Project Website, front-end devlopment, html, css, javascript, responsive menus">
+    <meta name="author" content="Hongxin Ouyang">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone 1 | Student Website Portal</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- style.css  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+  </head>
+<body class="">
+  <div class="container-fluid">
+  <header class="">
+    <nav class="navbar navbar-expand-md navbar-light bg-black  d-flex flex-md-row flex-column justify-content-between px-5">
+        <!-- <img class="logo" id="logo" src="./img/logo.png" alt="logo" height="80"> -->
+        <span class="text-white">CCM</span>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Web</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#" title="About">Digital art</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#" title="Projects">Media</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container-fluid border border-5 ">
+
+  <!-- hover panel  -->
+  <section class="panel-hover d-flex justify-content-center align-items-center p-5 mx-auto flex-wrap" >
+    <div class="col-sm-12 col-md-4 " >
+      <figure class="mx-auto d-flex justify-content-center align-items-center "
+      >
+        <img id="panel-profile-photo" class=" mx-auto border border-5 " src="./img/1.png" alt="bio picture">
+      </figure>
+    </div>
+    <div class="col-sm-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
+      <h2 class="text-start p-3 text-danger">KRINALBEN PATEL</h2>
+      <p class="px-5 py-3">
+        After graduating from high school, I really wanted to tie my life with computer development because I believe technologies are our future!
+      </p>
+    </div>
+  </section>
+
+  <section class="row  pt-5 d-flex justify-content-start align-items-center mx-auto">
+    <div class="col-sm-6 col-md-3  mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center">
+        <img onmouseover="setProfile(1)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/1.png" alt="bio picture">
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(2)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/2.png" alt="bio picture">
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(3)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/3.png" alt="bio picture">
+        </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(4)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/4.png" alt="bio picture">
+        </figure>
+    </div>
+    <div class="col-sm-6 col-md-3  mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center">
+        <img onmouseover="setProfile(5)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/5.png" alt="bio picture">
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(6)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/6.png" alt="bio picture">
+        </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(7)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/7.png" alt="bio picture">
+      </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(8)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/8.png" alt="bio picture">
+        </figure>
+    </div>
+    <div class="col-sm-6 col-md-3 mb-5">
+      <figure class="mx-auto d-flex justify-content-center align-items-center ">
+        <img onmouseover="setProfile(9)" onmouseout="hideProfile()" class="  mx-auto border border-5 " src="./img/9.png" alt="bio picture">
+        </figure>
+    </div>
+  </section>
+
+
+
+
+
+
+</div>
+
+  <footer class="row bg-black text-white container-fluid mx-auto">
+   <a class="mt-3 mb-3 w-75 mx-auto bg-white rounded-3 text-decoration-none text-black text-center" href="#logo">Go to Top</a> 
+  </footer>
+
+</div>
+    <!-- Adobe Fonts Script -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'diq0swn', // replace adobe kit id
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
