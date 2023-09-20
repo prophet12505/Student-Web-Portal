@@ -32,96 +32,89 @@
         class="navbar navbar-expand-md navbar-light bg-black  d-flex flex-md-row flex-column justify-content-between px-5">
         <!-- <img class="logo" id="logo" src="./img/logo.png" alt="logo" height="80"> -->
         <span class="text-white">CCM</span>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Web</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#" title="About">Digital art</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#" title="Projects">Media</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <div class="container-fluid border border-5 ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#" title="Home">Web</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#" title="About">Digital art</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#" title="Projects">Media</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container-fluid border border-5 ">
 
       <!-- hover panel  -->
-      <section class="panel-hover d-flex justify-content-center align-items-center p-5 mx-auto flex-wrap col-sm-12 col-md-6 mx-auto" 
-      onmouseout="hideProfile()"
-      >
+      <section class="panel-hover d-flex justify-content-center align-items-center p-5 mx-auto flex-wrap col-sm-12 col-md-6 mx-auto
+      open
+      " id="panel-hover" >
+        <div class="panel-hover-wrapper">
         <div class="col-sm-12 col-md-4 ">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
             <img id="panel-profile-photo" class=" mx-auto border border-5 " src="./img/1.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
-          <h2 class="text-start p-3 text-danger">KRINALBEN PATEL</h2>
+          <h2 class="text-start p-3 text-danger" id="panel-profile-name">KRINALBEN PATEL</h2>
           <p class="px-5 py-3">
             After graduating from high school, I really wanted to tie my life with computer development because I
             believe technologies are our future!
           </p>
+        </div>
         </div>
       </section>
 
       <section class="row  pt-5 d-flex justify-content-start align-items-center mx-auto">
         <div class="col-sm-6 col-md-3  mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center">
-            <img onmouseover="setProfile(1)"  class="  mx-auto border border-5 "
-              src="./img/1.png" alt="bio picture">
+            <img onclick="collapseProfile(1)"  class="  mx-auto border border-5 " src="./img/1.png" alt="bio picture">
           </figure>
         </div>
 
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(2)"  class="  mx-auto border border-5 "
-              src="./img/2.png" alt="bio picture">
+            <img onclick="collapseProfile(2)" class="  mx-auto border border-5 " src="./img/2.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(3)"  class="  mx-auto border border-5 "
-              src="./img/3.png" alt="bio picture">
+            <img onclick="collapseProfile(3)" class="  mx-auto border border-5 " src="./img/3.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(4)"  class="  mx-auto border border-5 "
-              src="./img/4.png" alt="bio picture">
+            <img onclick="collapseProfile(4)" class="  mx-auto border border-5 " src="./img/4.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3  mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center">
-            <img onmouseover="setProfile(5)"  class="  mx-auto border border-5 "
-              src="./img/5.png" alt="bio picture">
+            <img onclick="collapseProfile(5)" class="  mx-auto border border-5 " src="./img/5.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(6)" class="  mx-auto border border-5 "
-              src="./img/6.png" alt="bio picture">
+            <img onclick="collapseProfile(6)" class="  mx-auto border border-5 " src="./img/6.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(7)"  class="  mx-auto border border-5 "
-              src="./img/7.png" alt="bio picture">
+            <img onclick="collapseProfile(7)" class="  mx-auto border border-5 " src="./img/7.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(8)"  class="  mx-auto border border-5 "
-              src="./img/8.png" alt="bio picture">
+            <img onclick="collapseProfile(8)" class="  mx-auto border border-5 " src="./img/8.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
           <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(9)" class="  mx-auto border border-5 "
-              src="./img/9.png" alt="bio picture">
+            <img onclick="collapseProfile(9)" class="  mx-auto border border-5 " src="./img/9.png" alt="bio picture">
           </figure>
         </div>
       </section>

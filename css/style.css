@@ -128,11 +128,14 @@
         z-index: 3;
         /* height: 0; */
         /* debug mode  */
-        position: absolute;
-        top: 0;
-        background-color: var(--dark-gray-c);
+        /* height: 0; */
+        /* position: absolute;
+        top: 0; */
+        background: #ccc;
         visibility: hidden;
-        transition: .6s all;
+        height: 0;
+        overflow: hidden;
+        transition: all 200ms;
         opacity: 0.9;
     }
     /* 3. Header  */
