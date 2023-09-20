@@ -9,6 +9,9 @@ function setProfile(index){
         $(".panel-hover").css("visibility", "visible");
         showProfile=true;
     }
+    else{
+        hideProfile();
+    }
     // if($(".panel-hover").css("visibility") === "hidden")
     // {
        

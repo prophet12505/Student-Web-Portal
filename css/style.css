@@ -127,6 +127,7 @@
     .panel-hover{
         z-index: 3;
         /* height: 0; */
+        /* debug mode  */
         position: absolute;
         top: 0;
         background-color: var(--dark-gray-c);
