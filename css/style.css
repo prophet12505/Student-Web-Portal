@@ -131,14 +131,12 @@
         /* make it irresponsive to mouse movement  */
         pointer-events: none;
         position: absolute;
-        top: 0;
+        top: -50vw;
         left:50%;
         transform: translateX(-50%);
         background-color: rgb(19, 17, 17);
         visibility: hidden;
-        animation-name: movedown;
-        animation-duration: 1s;
-        transition: .6s all;
+        transition: 1.2s all;
         opacity: 0.95;
     }
     @keyframes movedown {
