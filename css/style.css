@@ -126,13 +126,13 @@
     }
     .panel-hover{
         z-index: 3;
-        position: fixed;
+        /* height: 0; */
+        position: absolute;
         top: 0;
         background-color: var(--dark-gray-c);
         visibility: hidden;
         transition: .6s all;
         opacity: 0.9;
-        
     }
     /* 3. Header  */
     /* 3.1 mobile  */
