@@ -123,8 +123,8 @@
         background-color: var(--dark-gray-c);
     }
     .logo{
-        width: 5vw;
-        height:5vw;
+        width: 1vw;
+        height:1vw;
     }
     .panel-hover{
         z-index: 3;
