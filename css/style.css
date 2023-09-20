@@ -130,11 +130,25 @@
         /* debug mode  */
         position: absolute;
         top: 0;
-        background-color: var(--dark-gray-c);
+        left:50%;
+        transform: translateX(-50%);
+        background-color: rgb(19, 17, 17);
         visibility: hidden;
+        animation-name: movedown;
+        animation-duration: 1s;
         transition: .6s all;
-        opacity: 0.9;
+        opacity: 0.95;
     }
+    @keyframes movedown {
+        0%   {
+            top: -50vw;
+        }
+       
+        100% {
+            top: 0;
+        }
+      }
+
     /* 3. Header  */
     /* 3.1 mobile  */
     .navbar-nav a,.navbar-nav a:link,.navbar-nav a:visited{
