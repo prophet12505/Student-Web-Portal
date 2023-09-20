@@ -26,7 +26,7 @@
     /* 2.1 Variables */
     :root {
         /* 2.2.1 Colour Palette */
-       --dark-gray-c:#4C5454;
+       --dark-gray-c:#9fb7ca3f;
        --dark-red-c:#c62a12;
        --yellow-c:#eadf13;
        --green-c:#068941;
@@ -119,6 +119,9 @@
     .bg-light-pink-c{
         background-color: var(--light-pink);
     }
+    .bg-dark-gray-c{
+        background-color: var(--dark-gray-c);
+    }
     .logo{
         width: 5vw;
         height:5vw;
@@ -140,8 +143,7 @@
         opacity: 0.97;
     }
     .profile-thumbnail{
-        border-radius: 50%;
-       
+        border-radius: 1%;
     }
     .profile-thumbnail:hover {
         opacity: 0.6;
