@@ -128,6 +128,8 @@
         z-index: 3;
         /* height: 0; */
         /* debug mode  */
+        /* make it irresponsive to mouse movement  */
+        pointer-events: none;
         position: absolute;
         top: 0;
         left:50%;

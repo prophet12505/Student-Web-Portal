@@ -1,25 +1,22 @@
 var nameList=[];
 var desctiption=[];
 
-var showProfile=false;
+var ProfileDisplay=false;
 
+function showProfile(index){
 
-function setProfile(index){
-    if(!showProfile){
+    if(!ProfileDisplay){
         $(".panel-hover").css("visibility", "visible");
-        showProfile=true;
+        ProfileDisplay=true;
+        $("#panel-profile-photo").attr("src", "./img/"+index+".png");
+        $("#panel-profile-name").attr("innerHTML", nameList[index]);
     }
-    else{
-        hideProfile();
-    }
-    // if($(".panel-hover").css("visibility") === "hidden")
-    // {
-       
-    // }
-    
-    $("#panel-profile-photo").attr("src", "./img/"+index+".png");
-}
+ }
+ 
 function hideProfile(){
-    $(".panel-hover").css("visibility", "hidden");
-    showProfile=false;
+    if(ProfileDisplay){
+        $(".panel-hover").css("visibility", "hidden");
+        ProfileDisplay=false;
+    }
+    
 }

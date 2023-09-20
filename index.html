@@ -52,15 +52,15 @@
 
       <!-- hover panel  -->
       <section class="panel-hover d-flex justify-content-center align-items-center p-5 mx-auto flex-wrap col-sm-12 col-md-6 mx-auto" 
-      onmouseout="hideProfile()"
+      
       >
         <div class="col-sm-12 col-md-4 mx-auto justify-content-center align-items-center">
           <figure class=" d-flex justify-content-center align-items-center ">
-            <img id="panel-profile-photo" class=" mx-auto border border-5 " src="./img/1.png" alt="bio picture">
+            <img id="panel-profile-photo" class=" mx-0 border border-5 " src="./img/1.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
-          <h2 class="text-start p-3 text-danger">KRINALBEN PATEL</h2>
+          <h2 class="text-start p-3 text-danger " id="panel-profile-name">KRINALBEN PATEL</h2>
           <p class="px-5 py-3 text-white text-md-start">
             After graduating from high school, I really wanted to tie my life with computer development because I
             believe technologies are our future!
@@ -70,57 +70,57 @@
 
       <section class="row  pt-5 d-flex justify-content-start align-items-center mx-auto">
         <div class="col-sm-6 col-md-3  mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center">
-            <img onmouseover="setProfile(1)"  class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center">
+            <img onmouseover="showProfile(1)" onmouseout="hideProfile()"  class="  border border-5 "
               src="./img/1.png" alt="bio picture">
           </figure>
         </div>
 
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(2)"  class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(2)" onmouseout="hideProfile()"   class="   border border-5 "
               src="./img/2.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(3)"  class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(3)" onmouseout="hideProfile()"  class="   border border-5 "
               src="./img/3.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(4)"  class="  mx-auto border border-5 "
+          <figure class="d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(4)" onmouseout="hideProfile()" class="   border border-5 "
               src="./img/4.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3  mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center">
-            <img onmouseover="setProfile(5)"  class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center">
+            <img onmouseover="showProfile(5)" onmouseout="hideProfile()"  class="   border border-5 "
               src="./img/5.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(6)" class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(6)" onmouseout="hideProfile()" class="   border border-5 "
               src="./img/6.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(7)"  class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(7)" onmouseout="hideProfile()" class="  border border-5 "
               src="./img/7.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(8)"  class="  mx-auto border border-5 "
+          <figure class="d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(8)" onmouseout="hideProfile()" class="  border border-5 "
               src="./img/8.png" alt="bio picture">
           </figure>
         </div>
         <div class="col-sm-6 col-md-3 mb-5">
-          <figure class="mx-auto d-flex justify-content-center align-items-center ">
-            <img onmouseover="setProfile(9)" class="  mx-auto border border-5 "
+          <figure class=" d-flex justify-content-center align-items-center ">
+            <img onmouseover="showProfile(9)" onmouseout="hideProfile()" class="  border border-5 "
               src="./img/9.png" alt="bio picture">
           </figure>
         </div>
@@ -153,7 +153,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
     crossorigin="anonymous"></script>
-  <script src="./js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 
 </html>
