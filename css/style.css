@@ -128,7 +128,7 @@
         background-color: #ddd;
       }
 
-      .popup-window {
+      /* .popup-window {
         display: none;
         position: fixed;
         top: 50%;
@@ -140,7 +140,7 @@
         background-color: var(--white-c);
         border: 1px solid var(--black-c);
         z-index: 10;
-      }
+      } */
 
       .popup-window img {
         filter: grayscale(0%);
