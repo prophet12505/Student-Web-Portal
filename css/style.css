@@ -26,12 +26,12 @@
     /* 2.1 Variables */
     :root {
         /* 2.2.1 Colour Palette */
-       --dark-gray-c:#9fb7ca3f;
-       --dark-red-c:#c62a12;
-       --yellow-c:#eadf13;
-       --green-c:#068941;
-       --light-pink:#e1c1bfa2;
-       --dark-brown-c:#523F38;
+    --dark-gray-c:#fafafa3f;
+    --dark-red-c:#c62a12;
+    --yellow-c:#eadf13;
+    --green-c:#068941;
+    --light-pink:#e1c1bfa2;
+    --dark-brown-c:#523F38;
 
         /* 2.2.2 Type */
         /* --body-fonts: "basic-sans", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode, Open Sans", "Droid Sans", sans-serif;
@@ -131,7 +131,7 @@
         /* height: 0; */
         /* debug mode  */
         /* make it irresponsive to mouse movement  */
-        border-radius: 10px;
+        border-radius: 3px;
         pointer-events: none;
         position: absolute;
         top: -50vw;
