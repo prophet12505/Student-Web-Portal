@@ -1,5 +1,5 @@
-var nameList=[];
-var desctiption=[];
+var nameList=["KRINALBEN PATEL","RJ SUL","MILTON CHAN","AJAV S.DHINDSA","SHEA KENNEDY","DANIEL LAMANN","PARIS MORAVEK","GUMTAS SINGH SIDHU","YUANYAN XV"];
+var desctiption=[""];
 
 var ProfileDisplay=false;
 
@@ -10,7 +10,10 @@ function showProfile(index){
         $(".panel-hover").css("top", "4vw");
         ProfileDisplay=true;
         $("#panel-profile-photo").attr("src", "./img/"+index+".png");
-        $("#panel-profile-name").attr("innerHTML", nameList[index]);
+
+        $("#panel-profile-name").html(nameList[index-1]);
+        //bio display
+        $("#panel-profile-bio").html(desctiption[index-1]);
     }
 }
 function hideProfile(){
