@@ -19,7 +19,6 @@
 @import url(reset.css);
 
 /* 1.2 Import from Adobe Fonts = uua6dbt (web project id) */
-@import url("https://use.typekit.net/uua6dbt.css");
 @import url(stylesheet.css);
 
 /* --- 2. Global Rules --- */
@@ -60,7 +59,7 @@
         height: auto;
         display: block;
         margin: 0 auto;
-        filter: grayscale(100%);
+        /* filter: grayscale(100%); */
 
 
     }
@@ -75,6 +74,7 @@
         padding: 1rem 0;
         text-align: center;
         font-family: "museo";
+        font-weight: 900;
 
     }
 
@@ -126,25 +126,6 @@
       
       .sideNav li a:hover {
         background-color: #ddd;
-      }
-
-      .popup-window {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        width: 50%;
-        height: auto;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        background-color: var(--white-c);
-        border: 1px solid var(--black-c);
-        z-index: 10;
-      }
-
-      .popup-window img {
-        filter: grayscale(0%);
-
       }
 
       .portfolio {
