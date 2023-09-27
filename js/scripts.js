@@ -10,7 +10,6 @@ function showProfile(index){
         $(".panel-hover").css("top", "4vw");
         ProfileDisplay=true;
         $("#panel-profile-photo").attr("src", "./img/"+index+".png");
-
         $("#panel-profile-name").html(nameList[index-1]);
         //bio display
         $("#panel-profile-bio").html(desctiption[index-1]);
