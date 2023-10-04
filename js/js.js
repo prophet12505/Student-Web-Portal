@@ -12,9 +12,11 @@ profileCards.forEach(function(profileCard) {
   var facebook = profileCard.getAttribute("facebook");
   var tumblr = profileCard.getAttribute("tumblr");
   var discord = profileCard.getAttribute("discord");
-  var workEmail = profileCard.getAttribute("workEmail");
+  var workEmail = profileCard.getAttribute("work-email");
   var behance = profileCard.getAttribute("behance");
   var portFolioWebsite = profileCard.getAttribute("portfolio-website");
+  var sketchFab = profileCard.getAttribute("sketch-fab");
+  var github = profileCard.getAttribute("github");
   var socialMedias = "";
 
   if (linkedin)
@@ -39,7 +41,10 @@ profileCards.forEach(function(profileCard) {
     socialMedias+=`<a class="mx-3" href="mailto:${workEmail}"><i class="h2 fa-solid fa-briefcase"></i></a>`;
   if(portFolioWebsite)
     socialMedias+=`<a class="mx-3" href="${portFolioWebsite}"><i class="h2 fa-solid fa-house-user"></i></a>`;
-
+  if(sketchFab)
+    sketchFab+=`<a class="mx-3" href="${sketchFab}"><i class="h2 fa-solid fa-cube"></i></a>`;
+  if(github)
+    socialMedias+=`<a class="mx-3" href="${github}"><i class="h2 fa-brands fa-github"></i></a>`;
   profileCard.innerHTML = `
         <a href="#c${profileName.replace(/\s+/g, '')}" data-bs-toggle="collapse"><img class="profile-photo" src="${imgSrc}"></a>
         <p class="mb-0">${profileName}</p>
