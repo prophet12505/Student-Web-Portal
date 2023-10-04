@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Final Project created by Cole Howarth coding in our group website made for our Typography class">
+    <meta name="description"
+        content="Final Project created by Cole Howarth coding in our group website made for our Typography class">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Bootstrap 5, front-end, development, html, Bootstrap, css, final">
     <meta name="author" content="Cole Howarth">
     <title>Assiniboine Community College 2023 Graduates</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/reset.css" type="text/css">
     <link rel="stylesheet" href="./css/stylesheet.css" type="text/css">
@@ -17,23 +20,23 @@
     <link rel="stylesheet" href="https://use.typekit.net/dax2gqf.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    
+
 </head>
+
 <body class="container-fluid">
 
     <header>
         <!-- Logo -->
         <img class="logo" id="home" src="./img/primary logo.png">
-
     </header>
-    
+
     <div class="centerNav">
         <nav class="sideNav">
             <ul>
-                <li><a class="text-decoration-none" href="index.html">H</a></li>
+                <li><a class="text-decoration-none" href="#home">H</a></li>
                 <li><a class="text-decoration-none" href="M.html">M</a></li>
                 <li><a class="text-decoration-none" href="D.html">D</a></li>
                 <li><a class="text-decoration-none" href="W.html">W</a></li>
@@ -41,107 +44,401 @@
             </ul>
         </nav>
     </div>
-
     <section class="mediaCom pb-5">
         <h2 class="pt-5 pb-5" id="mediaCom">Media Communications</h2>
 
         <div id="accordion">
-
-            <div class="container">
-                
-                    <a href="#dBrooks"  data-bs-toggle="collapse"><img src="./img/dawson brooks.jpg"></a>
-                    <p>Dawson Brooks</p>
-                
-                    <div id="dBrooks" class="collapse" data-bs-parent="#accordion">
-                        <p>LinkedIn <span>https://www.linkedin.com/in/dawson-brooks-5894b81b9/</span></p>
-                        <p>Other Socials <span>https://www.instagram.com/dawsonybrooks29/</span></p>
-                        <p>Main Contact <span>brooksd2@assiniboine.net</span></p>
-
-                    </div>
-                
-            </div>
-
-            <div class="container">
-
-                    <a href="#sElk" data-bs-toggle="collapse"><img src="./img/IMG_0220Shaina.jpg"></a>
-                    <p>Shaina T. Elk</p>
-                    
-                <div id="sElk" class="collapse" data-bs-parent="#accordion">
-                    <p>LinkedIn <span>https://www.linkedin.com/in/shaina-elk-05948121b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5biGDjhzQp%2B3clR8D3UukA%3D%3D</span></p>
-                    <p>Other Socials <span>https://www.facebook.com/profile.php?id=100072437202973&mibextid=LQQJ4d</span></p>
-                    <p>Main Contact <span>elkshaina@gmail.com</span></p>
-
+            <div class="row">
+                <div class="profile-card-injection container col-md-3" profile-name="Dawson Brooks"
+                    img-src="./img/portraits/dawson brooks.jpg"
+                    linkedin="https://www.linkedin.com/in/dawson-brooks-5894b81b9/"
+                    instagram="https://www.instagram.com/dawsonybrooks29/" email="brooksd2@assiniboine.net">
                 </div>
-            </div>
-
-            <div class="container">
-        
-                    <a href="#aFrost" data-bs-toggle="collapse"><img src="./img/aaron frost.jpg"></a>
-                    <p>Aaron Frost</p>
-
-                <div id="aFrost" class="collapse" data-bs-parent="#accordion">
-                    <p>LinkedIn <span>https://www.linkedin.com/in/aaron-frost-5895301aa/</span></p>
-                    <p>Other Socials <span>https://www.instagram.com/aaronfrost.900 <br> https://twitter.com/AaronFrost1 <br> https://www.facebook.com/aaron.frost.900</span></p>
-                    <p>Main Contact <span>aaroncfrost@aol.com</span></p>
-
+                <div class="profile-card-injection container col-md-3" profile-name="Shaina T. Elk"
+                    img-src="./img/portraits/IMG_0220Shaina.jpg"
+                    linkedin="https://www.linkedin.com/in/shaina-elk-05948121b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5biGDjhzQp%2B3clR8D3UukA%3D%3D"
+                    facebook="https://www.facebook.com/profile.php?id=100072437202973&mibextid=LQQJ4d"
+                    email="elkshaina@gmail.com">
                 </div>
-            </div>
 
-            <div class="container popup-trigger">
-                <img src="./img/Zachary Harris.jpg">
-                <p>Zach Harris</p>
-                <div class="popup-window popup-image">
-                    <img src="./img/Zachary Harris.jpg">
-                    <p>Zach Harris</p>
-
-                    <p>LinkedIn <span>https://www.linkedin.com/in/zach-harris-909b26243</span></p>
-                    <p>Other Socials <span>Instagram @zachharrisporductions <br> Twitter @arris707</span></p>
-                    <p>Main Contact <span>zh.harris@outlook.com</span></p>
+                <div class="profile-card-injection container col-md-3" profile-name="Aaron Frost"
+                    img-src="./img/portraits/aaron frost.jpg" linkedin="https://www.linkedin.com/in/aaron-frost-5895301aa/"
+                    instagram="https://www.instagram.com/aaronfrost.900" email="aaroncfrost@aol.com">
                 </div>
-            </div>
-
-            <div class="container popup-trigger">
-                <img src="./img/Cullan.jpg">
-                <p>Cullen Shaluk</p>
-                <div class="popup-window popup-image">
-                    <img src="./img/Cullan.jpg">
-                    <p>Cullen Shaluk</p>
-
-                    <p>LinkedIn <span>https://www.linkedin.com/in/cullen-shaluk-21a1a9263/</span></p>
-                    <p>Other Socials <span>https://www.instagram.com/cullen.03/?hl=en</span></p>
-                    <p>Main Contact <span>cshaluk03@gmail.com</span></p>
+                <div class="profile-card-injection container col-md-3" profile-name="Zach Harris"
+                    img-src="./img/portraits/Zachary Harris.jpg" linkedin="https://www.linkedin.com/in/zach-harris-909b26243"
+                    twitter="https://twitter.com/arris707" instagram="Instagram @zachharrisporductions "
+                    email="zh.harris@outlook.com">
                 </div>
-            </div>
-
-            <div class="container popup-trigger">
-                <img src="./img/lincoln jordan.jpg">
-                <p>Lincoln Jordan</p>
-                <div class="popup-window popup-image">
-                    <img src="./img/lincoln jordan.jpg">
-                    <p>Lincoln Jordan</p>
-
-                    <p>LinkedIn <span>linkedin.com/in/lincoln-jordan-963582266/</span></p>
-                    <p>Other Socials <span>Instagram.com/linc_jordan <br>Twitter.com/LincolnJord <br> TikTok.com/lincjordan22</span></p>
-                    <p>Main Contact <span>lincolnjordan20@gmail.com</span></p>
-                    <p>Portfolio <span>https://warrene.myportfolio.com</span></p>
-                    <p class="portfolio">I'm a second-year student studying at ACC in the Media and Communications track taking the Film and Factual elective. Even though I'm currently considered a second-year student I've actually been studying at ACC for three years. Originally I was interested in learning about game design which is why I ended up spending my first year in the Web and interactive program. After that year though I ended up finding out that I really didn't enjoy the coding aspects of the course so I had to take a step back and revaluate what I wanted to pursue. I found I was interested in the media and communications track which I'm excited to say I'm looking to graduate from this year. 
-                        I joined ACC because it is a school that has its students learn by doing which is great for me because learning through application is way easier and more enjoyable then learning purely through theory. When I completing projects for the Media and Communications track I find myself genuinely enjoying not only the final products I create but also the process involved in making the product as well. 
-                        While I've been studying I've learned that I have a love for hosting, I found that I really enjoyed that specific form of presenting information to people and getting a point across, it doesn't even necessarily need to be me trying to convince people to agree with my opinion, the actual act of informing others is what draws me to the type of work hosting would allow me to do. In my studies I've also figured out after a period of time I spent attempting to learn to screen write which is a mainly solo pursuit, that I prefer collaborating and working in teams over working alone because I feel that having multiple opinions available all focused on improving a product,  helps to create a better final product in the end which both me and the group I'm working with can take pride in.   
-                        When I'm out in the field my goal is going to be to keep learning whatever I can in an effort to be ready for when new exciting opportunities will inevitably present themselves to me. Even if it means that I have to start by being a production assistant on set, I'm more then willing to do it if it allows me to branch out and interact with environments that would help me in developing the connections and skills needed to grasp on to those opportunities. So long as I'm working in a team I know I'll have more new and exciting things to learn.</p>
+                <div class="profile-card-injection container col-md-3"       profile-name="Cullen Shaluk"
+                    img-src="./img/portraits/Cullan.jpg" 
+                    linkedin="https://www.linkedin.com/in/cullen-shaluk-21a1a9263/"
+                    email="cshaluk03@gmail.com" 
+                    instagram="https://www.instagram.com/cullen.03/?hl=en"
+                    >
                 </div>
-            </div>
 
-            <div class="container popup-trigger">
-                <img src="./img/James_Humberstone.png">
-                <p>James Humberstone</p>
-                <div class="popup-window popup-image">
-                    <img src="./img/James_Humberstone.png">
-                    <p>James Humberstone</p>
 
-                </div>
             </div>
-        </div>  
+        </div>
     </section>
-    
+
+    <!-- <section class="digiDesign pb-5">
+        <h2 class="pt-5 pb-5" id="digiDesign">Digital Media & Design</h2>
+
+        <div class="container ">
+            <img src="./img/miranda greer.jpg">
+            <p>Miranda R. Greer</p>
+            <div class="popup-window popup-image">
+                <img src="./img/miranda greer.jpg">
+                <p>Miranda R. Greer</p>
+
+                <p>LinkedIn <span>www.linkedin.com/in/miranda-greer-0aa979263</span></p>
+                <p>Main Contact <span>miragreer195@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Sierra Hadway.jpg">
+            <p>Sierra Hadway</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Sierra Hadway.jpg">
+                <p>Sierra Hadway</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/sierra-hadway-957697271/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/sh_creativemedia/</span></p>
+                <p>Main Contact <span>sierrahadway@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Alyssa Jansen.jpg">
+            <p>Alyssa Jansen</p>
+            <div class="popup-windown popup-image">
+                <img src="./img/Alyssa Jansen.jpg">
+                <p>Alyssa Jansen</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/alyssa-jansen-39a569228/</span></p>
+                <p>Other Socials <span>https://www.tumblr.com/spicy-apple-pie <br> https://twitter.com/SpicyApplePieAr</span></p>
+                <p>Main Contact <span>alyssajansen901@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Andy Kim.jpg">
+            <p>Andy Kim</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Andy Kim.jpg">
+                <p>Andy Kim</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/dawson-brooks-5894b81b9/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/dawsonybrooks29/</span></p>
+                <p>Main Contact <span>brooksd2@assiniboine.net</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Juanitta.jpg">
+            <p>Juanita Cook</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Juanitta.jpg">
+                <p>Juanita Cook</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/junhyung-kim-527a9325a/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/andy_graphic_designer/ <br> https://twitter.com/KJunhuyng</span></p>
+                <p>Main Contact <span>junhyungkim997@outlook.com <br> Discord: Casloth#3157</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/jessie kwok.jpg">
+            <p>Jessie Kwok</p>
+            <div class="popup-window popup-image">
+                <img src="./img/jessie kwok.jpg">
+                <p>Jessie Kwok</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/jessie-kwok-392890231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Be5kQLtZmQrm38Xw7kn23bg%3D%3D</span></p>
+                <p>Main Contact <span>jessiekwokart@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/minh nguyen.jpg">
+            <p>Minh Khue Nguyen</p>
+            <div class="popup-window popup-image">
+                <img src="./img/minh nguyen.jpg">
+                <p>Minh Khue Nguyen</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/minh-nguyen-meg/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/abrilliantstar_/ <br> https://www.facebook.com/profile.php?id=100090739014150</span></p>
+                <p>Main Contact <span>https://www.behance.net/minhnguyn335 <br>nguyenm@assiniboine.net / ngnminhk@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Anh Tho Nguyen.jpg">
+            <p>Anh Tho Nguyen</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Anh Tho Nguyen.jpg">
+                <p>Anh Tho Nguyen</p>
+
+                <p>Other Socials <span>@anh_ngnn</span> </p>
+                <p>Main Contact <span>nguyena2@assiniboine.net</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Michelle Pineda Henriquez.jpg">
+            <p>Michelle Pineda Henriquez</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Michelle Pineda Henriquez.jpg">
+                <p>Michelle Pineda Henriquez</p>
+
+                <p>Other Socials <span>@bloomynmoon Tumblr, Tik Tok, Instagram, and Twitter</span></p>
+                <p>Main Contact <span>bloomynmoon@gmail.com</span></p>
+
+                <p class="portfolio">Michelle Pineda Henriquez is a graduating student at Assiniboine Community College in the Digital Art and Design program. Ever since she was little, from the time of finger paintings, art has been a massive part of their life and something they have always enjoyed. After pursuing all sorts of digital art and graphic design classes in high school, they made their way into the program following the recommendation of a teacher. 
+                    Inspired by the works of artists, game developers and story tellers like that of Toby Fox, the creator of the popular game Undertale, Michelle works in 2d animation and drawing, creating characters and stories of his own. Additionally, they have been working with the Leech Group in Brandon to boost the skills they have been taught regarding everything print. With practicum placements just around the corner, a department change is in order, moving from working in print to working alongside the graphic designers to further more of the skills learned over the past two years in a more practical setting.
+                    After almost two full years of being a student in the Digital Art and Design program, Michelle had advice for his younger self. "Calm down, you're going to do great... you have time! It doesn't feel like it, but you do have time." Some solid advice which many students going in to their first year, regardless of program, need to be reminded of every once in a while.
+                    Keep your eyes out for Michelle in the months ahead as they compete in Skills Manitoba in the 3D contests on behalf of A.C.C!</p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Nathan_Evernden.png">
+            <p>Nathan Evernden</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Nathan_Evernden.png">
+                <p>Nathan Evernden</p>
+
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Vince Salazar.jpg">
+            <p>Vincent Salazar</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Vince Salazar.jpg">
+                <p>Vincent Salazar</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/vince-salazar-03916025b/</span></p>
+                <p>Other Socials <span>https://www.facebook.com/vince.salazar.9484 <br> https://instagram.com/vince_razalas?igshid=YmMyMTA2M2Y=</span></p>
+                <p>Main Contact <span>salazarv@assiniboine.net / razalasvince03@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Erich Schmidt.jpg">
+            <p>Erich Schmidt</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Erich Schmidt.jpg">
+                <p>Erich Schmidt</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/erich-schmidt-99060921b/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/_erichschmidt_/ <br> https://sketchfab.com/ErichSchmidt</span></p>
+                <p>Main Contact <span>erich.schmidt1013@hotmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/paige yanchycki.jpg">
+            <p>Paige V. Yanchycki</p>
+            <div class="popup-window popup-image">
+                <img src="./img/paige yanchycki.jpg">
+                <p>Paige V. Yanchycki</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/paige-yanchycki/</span></p>
+                    <p>Other Socials <span>https://www.instagram.com/dawsonybrooks29/ </span></p>
+                    <p>Main Contact <span>brooksd2@assiniboine.net</span></p>
+
+                    <p class="portfolio">Paige Yanchyki is a second year Digital Art and Design student at Assiniboine Community College. She graduated from Brandon University with a master's degree in history, but after that, she felt that she needed more education in a different field in order to get a good job. She knew that she was an artistic person, and was interested in learning more about web design, so she turned to ACC, not wanting to stray from the city she'd grown up in.
+                        Paige is in her second year at ACC in Digital Art and Design, and she's satisfied with where her education has taken her so far. She's found great value in the teaching styles and materials of the college, and is eager to apply her new knowledge and skills to a job in the field after graduating. Whether it's direct employment or some freelance work, Paige is ready to be out there designing graphics and websites of her own. </p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Jenny_paul.jpeg">
+            <p>Jenny Paul</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Jenny_paul.jpeg">
+                <p>Jenny Paul</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/dawson-brooks-5894b81b9/</span></p>
+                <p>Other Socials <span>IG: @chive.zip</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Amanpreet Kaur.jpg">
+            <p>Amanpreet Kaur</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Amanpreet Kaur.jpg">
+                <p>Amanpreet Kaur</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/learning/me/my-library/assigned?u=57077801</span></p>
+                <p>Main Contact <span>Amanpreetkaur3@assiniboine.net</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="webDev pb-5">
+        <h2 class="pt-5 pb-5" id="webDev">Web & Interactive Development</h2>
+
+        <div class="container ">
+            <img src="./img/Ajay Singh Dhindsa (turbanator).jpg">
+            <p>Ajay S. Dhindsa</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Ajay Singh Dhindsa (turbanator).jpg">
+                <p>Ajay S. Dhindsa</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/ajay-singh-dhindsa-5b91a8230/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/ajaydhindsa_/</span></p>
+                <p>Main Contact <span>ajaydhindsa2000@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/shea kennedy.jpg">
+            <p>Shea Kennedy</p>
+            <div class="popup-window popup-image">
+                <img class="popup-image" src="./img/shea kennedy.jpg">
+                <p>Shea Kennedy</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/shea-kennedy-b91542122/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/shea__kennedy/</span></p>
+                <p>Main Contact <span><sheamkennedy@gmail.com/span></p>
+            </div>
+        </div>
+
+
+        <div class="container ">
+            <img src="./img/Daniil Lemann.jpg">
+            <p>Daniil Lemann</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Daniil Lemann.jpg">
+                <p>Daniil Lemann</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/dannylemann</span></p>
+                <p>Other Socials <span>IG @honeylemann</span></p>
+                <p>Portfolio <span>https://www.interactive-media-arts.ca/students/2021/wid/lemannd/dannylemann/</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Paris Moravek.jpg">
+            <p>Paris Moravek</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Paris Moravek.jpg">
+                <p>Paris Moravek</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/paris-moravek-7a067b238/</span></p>
+                <p>Main Contact <span>parismoravek@gmail.com</span></p>
+                <p>Portfolio <span>https://www.interactive-media-arts.ca/students/2021/wid/moravekp/universe/wordpress/</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Krinal Patel.jpg">
+            <p>Krinal Patel</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Krinal Patel.jpg">
+                <p>Krinal Patel</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/krinal-patel-175323120/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/krinalpatel927/</span></p>
+                <p>Main Contact <span>krinalpatela17@gmail.com / Patelk21@assiniboine.net</span></p>
+                <p>Portfolio  <span>https://interactive-media-arts.ca/students/2021/wid/patelk21/Portfolio/</span></p>
+
+                <p class="portfolio">After graduating from high school, I really wanted to tie my life with computer development because I believe technologies are our future! 
+
+                    I got  a bachelor of computer engineering. It is a branch of engineering that deals with the design, development, and maintenance of computer systems and their components. Computer engeenering  involves a combination of hardware and software engineering and covers a wide range of topics, including computer architecture, digital electronics, software engineering, computer networks, and artificial intelligence. I decided to dig deeper into the web design and development and went for a Web & Interactive program in ACC!
+                    
+                    Coding involves writing instructions in a specific programming language that a computer can understand and execute. It is an essential skill for anyone who wants to work in the tech industry or develop software applications.
+                    
+                    With persistence and a willingness to learn, I know I can achieve my goal of becoming a web developer with a strong knowledge of programming languages. I would absolutely  recommend the future students to focus on learning HTML and CSS as I think it is the base for a web developer.
+                    
+                    Last year is going very stressful. However, time management is 50% of your success! Stay focused and you can achieve your best results! There are some tips for you:
+                    1. Prioritize tasks.
+                    2. Set goals.
+                    3. Allocate time.
+                    4. Avoid multitasking.
+                    5. Take breaks.
+                    6. Eliminate distractions.
+                    7. Learn to say no.
+                    
+                    Web development is a continuous learning process. Be patient and persistent, and don't be afraid to ask for help when you need it!</p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Yuanyan Xu.jpg">
+            <p>Yuanyan Xu</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Yuanyan Xu.jpg">
+                <p>Yuanyan Xu</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/yuanyan-xu-b4646321b/</span></p>
+                <p>Other Socials <span>https://www.facebook.com/profile.php?id=100011673517781</span></p>
+                <p>Main Contact <span>https://david0601.github.io/David0601.github.oi/</span></p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Russell (RJ) Sul.jpg">
+            <p>Russell (RJ) Sul</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Russell (RJ) Sul.jpg">
+                <p>Russell (RJ) Sul</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/rj-sul-b2072521b/</span></p>
+                <p>Other Socials <span>https://www.instagram.com/rjsul257/ <br> https://twitter.com/RJSul257</span></p>
+                <p>Main Contact <span>rj_sul_05@outlook.com</span></p>
+                <p>Portfolio <span>https://www.interactive-media-arts.ca/students/2021/wid/sulr/RJSul_Portfolio/</span></p>
+                <p class="portfolio">RJ Sul is a talented game developer who grew up as a gamer and loved breaking games to see how they worked. This passion for understanding the inner workings of games eventually led RJ to create games of their own.
+                    RJ's interest in game development evolved into a focus on virtual reality (VR) development. RJ exceeded expectations with their work in VR, creating projects that were a great leap forward from what was believed to be possible.
+                    RJ's best skills are in HTML, CSS, Python, MySQL, and PHP. These skills allow RJ to work in a variety of different settings and industries. RJ is especially adept at working as part of a team, particularly with designers. RJ has grown comfortable working alongside designers, which makes the development process much smoother.
+                    During their time in school, RJ's goals were to create something to take home to showcase their skills, such as a game or project that demonstrated an understanding of how things work. RJ's ultimate end goal is to work for Ubisoft in Winnipeg. As a professional game developer, RJ hopes to create a portfolio that showcases all of their skills, from HTML to hard-coded WordPress sites. RJ believes that by demonstrating their progression over the years, potential employers will be more likely to take notice.
+                    RJ came into their studies with the mindset that they would be learning a lot. While they were initially focused on pure development, RJ gained a broad range of skills throughout the course, including design and Photoshop skills. RJ found that they learned more than they ever expected and were able to use many of the skills they learned throughout the rest of their studies.
+                    Overall, RJ Sul is a driven and talented game developer with a passion for VR development. Their skills in HTML, CSS, Python, MySQL, and PHP, combined with their ability to work well as part of a team, make them an asset to any project they undertake. RJ's ultimate goal of working for Ubisoft in Winnipeg is within reach, and they are constantly working to build a portfolio that showcases their talents and progression as a developer.</p>
+            </div>
+        </div>
+
+        <div class="container ">
+            <img src="./img/Guntas Singh Sidhu.jpg">
+            <p>Guntas Singh Sidhu</p>
+            <div class="popup-window popup-image">
+                <img src="./img/Guntas Singh Sidhu.jpg">
+                <p>Guntas Singh Sidhu</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/guntas-singh-sidhu-baa17025b</span></p>
+                <p>Other Socials <span>https://www.instagram.com/guntasingh/ <br> https://www.facebook.com/guntas.singh.752</span></p>
+                <p>Main Contact <span>guntasingh39@gmail.com</span></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="./img/MIltonC.png" class="">
+            <p>Milton Chan</p>
+            <div class="popup-window popup-image">
+                <img src="./img/MIltonC.png">
+                <p>Milton Chan</p>
+
+                <p>LinkedIn <span>https://www.linkedin.com/in/kai-yip-chan-4b8161116</span></p>
+                <p>Main Contact <span>chmilton21@gmail.com</span></p>
+                <p class="portfolio">As a recent immigrant to Canada, Milton found their passion in web and interactive development as they recognized the growing significance of e-commerce in today's business landscape. With a background in e-commerce and a desire to expand their knowledge and skills in this field, they made a deliberate choice to enroll in the web  and interactive development program.
+                    Throughout their time in school, Milton gained not only professional knowledge in web development but also valuable soft skills, such as teamwork and interpersonal skills, which they believe will be crucial to their future career success. They recognize the importance of collaboration and teamwork in the web development industry and have actively applied these skills in their coursework and projects.
+                    Looking ahead, Milton is currently seeking job opportunities in front-end development and web development, aiming to kickstart their career in the field. They have faced some challenges in finding a job in this competitive field but remain determined to pursue their passion. They express a keen interest in front-end development and digital marketing, including areas such as search engine optimization (SEO) and content marketing, as they see these fields as being closely related to e-commerce.
+                    Despite the challenges they have faced, Milton remains committed to their goal of establishing a successful career in web development and e-commerce. They are willing to explore different opportunities within the industry, such as digital marketing, to further develop their skills and broaden their knowledge. With their determination, passion for e-commerce, and willingness to adapt to the ever-changing digital landscape, Milton is poised for a promising career in the field of web development and beyond.</p>
+            </div>
+        </div>
+
+    </section> -->
+
+    <!-- f -->
+    <script src="https://kit.fontawesome.com/c1145b9de9.js" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.5.1.js"></script>
+    <script src="./js/js.js"></script>
 </body>
+
 </html>
