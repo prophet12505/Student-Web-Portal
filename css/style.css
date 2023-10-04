@@ -88,7 +88,13 @@
 
     .logo {
         filter: grayscale(0%);
-
+        /* animation: floatDown 3s ; */
+        animation-name: floatDown;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-play-state: running;
     }
 
     .centerNav {
@@ -152,8 +158,17 @@
         font-size: 1rem;
 
       }
+    .profile-photo{
+        height: 12vw;
+        border-radius: 50%;
+    }
+    .profile-card:hover{
+        background-color: #cccccc7b;
+        transition: .5s all;
+        /* border-radius: 50%; */
+        box-shadow: 1px 1px 1px #4f4fae36;
 
-
+    }
 
     /* 4.2 Tablet View */
 
@@ -171,3 +186,16 @@
 
 
     }
+
+
+/* --- 10.1 CSS animation ?--- */
+@keyframes floatDown {
+  0% {
+    opacity: 0.2;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
