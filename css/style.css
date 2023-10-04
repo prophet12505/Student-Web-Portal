@@ -29,7 +29,7 @@
         :root {
 
             /* 2.1.1 Colors */
-
+            --color-list: #146152 #9FC131 #DBF227 #F2EED8 #484747;
             --teal-c: #146152;
             --green-c: #9FC131;
             --yellow-green-c: #DBF227;
@@ -179,9 +179,11 @@
     }
     .profile-card-injection{
       transition: 1s all;
+      border-radius: 2px;
     }
     .profile-card-injection:hover{
-        background-color: var(--green-c);
+        /* background-color: var(--green-c); */
+        /* background-color: var(--random-color); */
         opacity: 0.7;
         /* border-radius: 50%; */
         box-shadow: 1px 1px 1px #4f4fae36;
