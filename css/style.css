@@ -30,12 +30,13 @@
 
             /* 2.1.1 Colors */
 
-            --black-c: #000000;
-            --white-c: #FFFFFF;
-            --bg-grey-c: #CCCCCC;
-            
+          --teal-c: #146152;
+          --green-c: #9FC131;
+          --yellow-green-c: #DBF227;
+          --offwhite-c: #F2EED8;
+          --dark-grey-c: #484747;
+
             /* 2.1.3 Font Sizes */
-            
 
             /* 2.1.4 Fonts */
             --text-f: "proxima-nova","museo", sans-serif;
@@ -49,7 +50,7 @@
     /* 4.1 Mobile View */
 
     body {
-        background-color: var(--bg-grey-c);
+        
         font-family: var(--text-f);
         font-size: 3rem;
 
@@ -87,6 +88,7 @@
     /* Classes */
 
     .logo {
+        height: 25vw;
         filter: grayscale(0%);
         /* animation: floatDown 3s ; */
         animation-name: floatDown;
@@ -163,17 +165,16 @@
         border-radius: 50%;
     }
     .profile-card{
-      transition: .5s all;
+      transition: 1s all;
     }
     .profile-card:hover{
-        background-color: #cccccc7b;
-        opacity: 0.8;
+        background-color: var(--green-c);
+        opacity: 0.7;
         /* border-radius: 50%; */
         box-shadow: 1px 1px 1px #4f4fae36;
-
     }
-    .fa-brands{
-      color: aliceblue;
+    i{
+      color: var(--teal-c) !important;
     }
 
     /* 4.2 Tablet View */
