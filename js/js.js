@@ -12,6 +12,9 @@ profileCards.forEach(function(profileCard) {
   var facebook = profileCard.getAttribute("facebook");
   var tumblr = profileCard.getAttribute("tumblr");
   var discord = profileCard.getAttribute("discord");
+  var workEmail = profileCard.getAttribute("workEmail");
+  var behance = profileCard.getAttribute("behance");
+  var portFolioWebsite = profileCard.getAttribute("portfolio-website");
   var socialMedias = "";
 
   if (linkedin)
@@ -30,14 +33,19 @@ profileCards.forEach(function(profileCard) {
     socialMedias += `<a class="mx-3" href="${tumblr}"><i class="h2 fa-brands fa-square-tumblr"></i></a>`;
   if(discord)
     socialMedias += `<a class="mx-3" href="${discord}"><i class="h2 fa-brands fa-discord"></i></a>`;
-  
+  if(behance)
+    socialMedias += `<a class="mx-3" href="${behance}"><i class="h2 fa-brands fa-square-behance"></i></a>`;
+  if(workEmail)
+    socialMedias+=`<a class="mx-3" href="mailto:${workEmail}"><i class="h2 fa-solid fa-briefcase"></i></a>`;
+  if(portFolioWebsite)
+    socialMedias+=`<a class="mx-3" href="${portFolioWebsite}"><i class="h2 fa-solid fa-house-user"></i></a>`;
+
   profileCard.innerHTML = `
         <a href="#c${profileName.replace(/\s+/g, '')}" data-bs-toggle="collapse"><img class="profile-photo" src="${imgSrc}"></a>
         <p class="mb-0">${profileName}</p>
         <div id="c${profileName.replace(/\s+/g, '')}" class="collapse text-center" data-bs-parent="#accordion">
             ${socialMedias}
         </div>
- 
   `;
 });
 
@@ -46,8 +54,12 @@ var colors = [
   "#9FC131",
   "#DBF227",
   "#F2EED8",
-  // "#484747"
-  
+  // 
+  // "#176B87",
+  "#F5E8B7",
+  "#64CCC5",
+  "#CD5C08"
+
 ];
 
 var profileCardInjectionList = document.querySelectorAll('.profile-card-injection');
