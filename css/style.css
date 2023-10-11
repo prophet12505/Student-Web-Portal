@@ -98,19 +98,26 @@
     }
 
     /* Classes */
+    .container-fluid{
+      margin:0 !important;
+      padding:0 !important;
+    }
 
-
+    .logo-header{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      /* background-image:url('../img/swirls.jpg'); */
+      background-image: linear-gradient(to bottom,#9fc13198,#14615281, rgb(255, 255, 255)), url('../img/swirls.jpg');
+      background-size: cover; /* You can use values like 'contain' or '50% 50%' for background positioning */
+      background-repeat: no-repeat;
+      background-position: center;
+    }
     .logo {
-      width: 90%;
-      padding-left: 5%;
-      padding-right: 5%;
+      width: 50%;
       height: 50vw;
       filter: grayscale(0%);
-        /* background-image:url('../img/swirls.jpg'); */
-        background-image: linear-gradient(to bottom,rgba(163, 201, 102, 0.5), rgb(255, 255, 255)), url('../img/swirls.jpg');
-        background-size: cover; /* You can use values like 'contain' or '50% 50%' for background positioning */
-        background-repeat: no-repeat;
-        background-position: center;
+        
       /* animation: floatDown 3s ; */
       animation-name: floatDown;
       animation-duration: 1.5s;
