@@ -78,3 +78,13 @@ profileCardInjection.addEventListener('mouseout', function() {
   this.style.setProperty('background-color', "#FFFFFF");
 });
 }
+
+// set footer 
+// Get the current year
+const currentYear = new Date().getFullYear();
+
+// Find the element with the "currentYear" id
+const yearElement = document.getElementById("currentYear");
+
+// Set the text content of the element to the current year
+yearElement.innerHTML = currentYear;

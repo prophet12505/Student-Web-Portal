@@ -189,6 +189,11 @@
       
     }
 
+    .profile-photo:active {
+      filter: grayscale(100%)
+
+    }
+
     .profile-card{
       transition: 1s all;
       
