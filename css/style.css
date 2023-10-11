@@ -59,6 +59,9 @@
     nav {
       font-family: "aviano-sans";
       font-weight: bold;
+      text-align: center;
+      justify-content: center;
+
 
     }
 
@@ -142,7 +145,7 @@
 
     .centerNav a {
       padding:0 10rem;
-      font-size: 5rem;
+      font-size: 4rem;
       text-decoration: none;
       color: var(--black-c);
 
