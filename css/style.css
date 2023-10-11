@@ -248,6 +248,7 @@
     transform: translateY(10%);
     filter: blur(1px);
   }
+  
   100% {
     opacity: 1;
     transform: translateY(0);
