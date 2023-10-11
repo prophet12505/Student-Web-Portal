@@ -39,7 +39,7 @@
             /* 2.1.3 Font Sizes */
 
             /* 2.1.4 Fonts */
-            --text-f: "proxima-nova","museo", sans-serif;
+            --text-f: "proxima-nova","museo","aviano-sans" sans-serif;
 
             font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
 
@@ -56,6 +56,12 @@
       
     }
 
+    nav {
+      font-family: "aviano-sans";
+      font-weight: bold;
+
+    }
+
     div {
       text-decoration: none;
       margin-bottom: 2rem;
@@ -63,15 +69,15 @@
     }
 
     div img {
-      width: 10rem;
-      height: 2rem;
-      padding-top: 2rem;
+      width: 80%;
+      height: auto;
+      padding-top: 20px;
 
     }
 
     img {
       /* width: 50%; */
-      height: auto;
+      /* height: auto; */
       display: block;
       margin: 0 auto;
       filter: grayscale(100%);
@@ -184,19 +190,19 @@
     }
 
     .profile-photo {
-      height: 12vw;
       border-radius: 50%;
       
     }
 
-    .profile-photo:active {
-      filter: grayscale(100%)
+    .profile-area:hover .profile-photo {
+      filter: grayscale(0%);
+      transition: 1s all;
 
     }
 
     .profile-card{
       transition: 1s all;
-      
+   
     }
     .profile-card:hover{
         background-color: var(--green-c);
@@ -206,14 +212,22 @@
         margin: 0rem -2rem;
     }
     .profile-card-injection{
-      /* width: 400px !important; */
+      padding: 0 !important;
+      margin: 30px 0 0 !important;
+      width: 400px !important;
       transition: 1s all;
       border-radius: 2px;
+      border: 2px solid transparent;
+      box-shadow: 0 0 10px rgba(33, 33, 36, 0.2);
+    }
+    .profile-card-injection img{
+      width:300px;
+      height: 350px;
     }
     .profile-card-injection:hover{
         /* background-color: var(--green-c); */
         /* background-color: var(--random-color); */
-        /* opacity: 0.7; */
+        opacity: 0.7;
         /* border-radius: 50%; */
         box-shadow: 1px 1px 1px #4f4fae36;
         

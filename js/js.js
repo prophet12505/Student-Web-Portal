@@ -46,7 +46,7 @@ profileCards.forEach(function(profileCard) {
   if(github)
     socialMedias+=`<a class="mx-3" href="${github}"><i class="h2 fa-brands fa-github"></i></a>`;
   profileCard.innerHTML = `
-        <a href="#c${profileName.replace(/\s+/g, '')}" data-bs-toggle="collapse"><img class="profile-photo" src="${imgSrc}"></a>
+        <a href="#c${profileName.replace(/\s+/g, '')}" class="profile-area" data-bs-toggle="collapse"><img class="profile-photo" src="${imgSrc}"></a>
         <p class="mb-0">${profileName}</p>
         <div id="c${profileName.replace(/\s+/g, '')}" class="collapse text-center" data-bs-parent="#accordion">
             ${socialMedias}
@@ -55,7 +55,7 @@ profileCards.forEach(function(profileCard) {
 });
 
 var colors = [
-  "#146152",
+  // "#146152",
   "#9FC131",
   "#DBF227",
   "#F2EED8",
@@ -66,6 +66,10 @@ var colors = [
   "#CD5C08"
 
 ];
+var linearColors=["linear-gradient(to right bottom, #146152, #9FC131)",
+"linear-gradient(to right bottom, #DBF227, #F2EED8)",
+"linear-gradient(to left bottom, #F5E8B7, #64CCC5)",
+"linear-gradient(to left bottom, #CD5C08, #F2EED8)"]
 
 var profileCardInjectionList = document.querySelectorAll('.profile-card-injection');
 for(var profileCardInjection of profileCardInjectionList){
