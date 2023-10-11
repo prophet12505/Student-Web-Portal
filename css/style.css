@@ -50,134 +50,145 @@
     /* 4.1 Mobile View */
 
     body {
-        
-        font-family: var(--text-f);
-        font-size: 3rem;
+      font-family: var(--text-f);
+      font-size: 3rem;
+      background-image: url('../img/swirls.jpg');
+      background-size: cover; /* You can use values like 'contain' or '50% 50%' for background positioning */
+      background-repeat: repeat;
+      background-position: center;
 
     }
 
     div {
       text-decoration: none;
+      margin-bottom: 2rem;
+
+    }
+
+    div img {
+      width: 10rem;
+      height: 2rem;
+      padding-top: 2rem;
 
     }
 
     img {
-        width: 50%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        filter: grayscale(100%);
+      /* width: 50%; */
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      filter: grayscale(100%);
 
     }
 
     h2 {
-        text-align: center;
+      text-align: center;
 
     }
 
     p {
-        font-size: 1.5rem;
-        padding: 1rem 0;
-        text-align: center;
-        font-family: "museo";
+      font-size: 1.5rem;
+      padding: 1rem 0;
+      text-align: center;
+      font-family: "museo";
 
     }
 
     span {
-        font-family: "proxima-nova";
-        font-size: 1rem;
+      font-family: "proxima-nova";
+      font-size: 1rem;
 
     }
 
     /* Classes */
 
     .logo {
-        height: 25vw;
-        filter: grayscale(0%);
-        /* animation: floatDown 3s ; */
-        animation-name: floatDown;
-        animation-duration: 1.5s;
-        animation-timing-function: ease-in-out;
-        animation-fill-mode: forwards;
-        animation-iteration-count: 1;
-        animation-play-state: running;
+      width: 50%;
+      height: 40vw;
+      filter: grayscale(0%);
+      /* animation: floatDown 3s ; */
+      animation-name: floatDown;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 1;
+      animation-play-state: running;
     }
 
     .centerNav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+    }
+
+    .centerNav a {
+      padding:0 10rem;
+      font-size: 5rem;
+      text-decoration: none;
+      color: var(--black-c);
+
+    }
+
+    .centerNav a:hover {
+      background-color: #ddd;
 
     }
 
     .sideNav {
-        position: fixed;
-        right: 0;
-        width: 200px;
-        height: 100%;
-        overflow-x: hidden;
-        padding-top: 20px;
-        text-align: right;
+      position: fixed;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      padding-top: 20px;
+      text-align: right;
 
     }
 
     .sideNav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-      }
-      
-      .sideNav li a {
-        display: block;
-        color: var(--black-c);
-        padding: 8px 16px;
-        text-decoration: none;
-      }
-      
-      .sideNav li a:hover {
-        background-color: #ddd;
-      }
-
-      /* .popup-window {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        width: 50%;
-        height: auto;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        background-color: var(--white-c);
-        border: 1px solid var(--black-c);
-        z-index: 10;
-      } */
-
-      .popup-window img {
-        filter: grayscale(0%);
-
-      }
-
-      .portfolio {
-        font-family: sans-serif;
-        font-size: 1rem;
-
-      }
-    .profile-photo{
-        height: 12vw;
-        border-radius: 50%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
     }
+    
+    .sideNav li a {
+      display: block;
+      color: var(--black-c);
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    
+    .sideNav li a:hover {
+      background-color: #ddd;
+    }
+
+    .portfolio {
+      font-family: sans-serif;
+      font-size: 1rem;
+
+    }
+
+    .profile-photo {
+      height: 12vw;
+      border-radius: 50%;
+      
+    }
+
     .profile-card{
       transition: 1s all;
+      
     }
     .profile-card:hover{
         background-color: var(--green-c);
         opacity: 0.7;
         /* border-radius: 50%; */
         box-shadow: 1px 1px 1px #4f4fae36;
+        margin: 0rem -2rem;
     }
     .profile-card-injection{
+      /* width: 400px !important; */
       transition: 1s all;
       border-radius: 2px;
     }
@@ -187,7 +198,9 @@
         opacity: 0.7;
         /* border-radius: 50%; */
         box-shadow: 1px 1px 1px #4f4fae36;
+        
     }
+
     i{
       color: var(--teal-c) !important;
     }
