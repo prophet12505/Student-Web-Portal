@@ -197,7 +197,7 @@
       
     }
 
-    .profile-area:hover .profile-photo {
+    .profile-area:hover .profile-photo, .profile-area:hover .container {
       filter: grayscale(0%);
       transition: 1s all;
 
